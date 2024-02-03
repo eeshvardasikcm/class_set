@@ -6,6 +6,8 @@
 // To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
 #include <set>
 #include <string>
+#include <stdexcept>
+#include <limits>
 #ifndef EESHVARDASIKCM_SET_H
 #define EESHVARDASIKCM_SET_H
 namespace EeshvarDasIKCM::classSet::set {
@@ -15,30 +17,30 @@ namespace EeshvarDasIKCM::classSet::set {
         static _key nextKeyToUse;
         static bool isFull;
         _key key=nextKeyToUse;
-        string _name{"zzz"};
+        std::string _name{"zzz"};
         element() {
             if (isFull) {
-                throw logic_error("IMPLEMENT_ELSEWHERE");
+                throw std::logic_error("IMPLEMENT_ELSEWHERE");
             } else {
                 key = nextKeyToUse;
             }
-            if (nextKeyToUse < LONG_LONG_INT_MAX) {
+            if (nextKeyToUse < std::numeric_limits<long long int>::max()) {
                 nextKeyToUse++;
-            } else if (nextKeyToUse>=LONG_LONG_INT_MAX) {
+            } else if (nextKeyToUse>=std::numeric_limits<long long int>::max()) {
                 isFull=true;
-                nextKeyToUse=LONG_LONG_INT_MAX;
-            } else throw logic_error("IMPLEMENT_ELSEWHERE");
+                nextKeyToUse=std::numeric_limits<long long int>::max();
+            } else throw std::logic_error("IMPLEMENT_ELSEWHERE");
         }
     public:
-        void setName(string name) { _name = name; }
-        string getName() {return _name; }
+        void setName(std::string name) { _name = name; }
+        std::string getName() {return _name; }
     };long long int element::nextKeyToUse=1;bool element::isFull=false;
     struct roster {
     private:
         std::set<long long int> elements;
         set::element _element;
     public:
-        void setElementName(const string& name) { _element.setName(name);};
+        void setElementName(const std::string& name) { _element.setName(name);};
     };
 }
 #endif //EESHVARDASIKCM_SET_H

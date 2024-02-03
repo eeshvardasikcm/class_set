@@ -35,7 +35,7 @@ namespace EeshvarDasIKCM::classSet::set {
     };
     struct m {
     };
-    struct n {
+    struct n {//TODO:make n operate closely to the wikipedia image shown in the README.md
     };
     struct o {
     };
