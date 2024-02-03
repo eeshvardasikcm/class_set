@@ -8,7 +8,7 @@
 #include <string>
 #ifndef EESHVARDASIKCM_SET_H
 #define EESHVARDASIKCM_SET_H
-namespace EeshvarDasIKCM::classMath::set {
+namespace EeshvarDasIKCM::classSet::set {
     struct element {
     private:
         using _key = long long int;

@@ -6,7 +6,7 @@
 // To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
 #ifndef EESHVARDASIKCM_SET_BUILDER_H
 #define EESHVARDASIKCM_SET_BUILDER_H
-namespace EeshvarDasIKCM::classMath::set {
+namespace EeshvarDasIKCM::classSet::set {
     struct y {
     };
     struct z {

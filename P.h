@@ -8,7 +8,7 @@
 #ifndef EESHVARDASIKCM_P_H
 #define EESHVARDASIKCM_P_H
 #include "set/set.h"
-namespace EeshvarDasIKCM::classMath {
+namespace EeshvarDasIKCM::classSet {
     using P = set::roster;
 }
 

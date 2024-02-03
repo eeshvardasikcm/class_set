@@ -5,7 +5,7 @@
 // EeshvarDasIKCM) is licensed under Attribution-ShareAlike 4.0 International.
 // To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
 
-#ifndef EESHVARDASIKCM_CLASS_MATH_H
-#define EESHVARDASIKCM_CLASS_MATH_H
+#ifndef EESHVARDASIKCM_CLASS_SET_H
+#define EESHVARDASIKCM_CLASS_SET_H
 
-#endif //EESHVARDASIKCM_CLASS_MATH_H
+#endif //EESHVARDASIKCM_CLASS_SET_H
