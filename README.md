@@ -7,8 +7,12 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/
 -->
 # EeshvarDasIKCM Class (Set)
 A C++ implementation of simple Class (set theory) mathematics, starting with the set, and possibly adding more later.
-## Class (set theory) on Wikipedia
-https://en.wikipedia.org/wiki/Class_(set_theory)
+## source of mathematics information
+- Wikipedia
+  - [Class (set theory)](https://en.wikipedia.org/wiki/Class_(set_theory))
+  - [Set (mathematics)](https://en.wikipedia.org/wiki/Set_(mathematics))
+    - Roster notation: <blockquote>A = {4, 2, 1, 3} B = {blue, white, red}</blockquote>
+    - "Set-builder notation: <blockquote style="background-color:white;"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/477b3e7e7d57f892acaf78f63ced9e376cca5f55" alt="Roster Notation shown from Wikipedia Set (mathematics) page"></blockquote>
 
 <hr>
 <p>The C++ code in this repository is not an official representation of Class (set theory).
